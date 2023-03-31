@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINTECH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,200&family=Telex&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="navlinks" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="features.html">FEATURES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+    <div class="textbox">
+        <h1>Understand Your Money Mindset:</h1>
+        <p><em>Explore Your Financial Behavior with Our Social Analytics</em></p>
+        <a href="about.html"><button type="btn"><span></span>GET STARTED</button></a>
+    </div>
+    </section>
+
+    <!------javascript for toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+  
+        <!--<div class="row">
+            <div class="coursecol">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta nobis optio doloremque iure numquam magnam? Culpa velit est, totam voluptatum laudantium, dolore deleniti, qui sint nisi molestiae dolorum fugiat!</p>
+            </div>
+
+            <div class="coursecol">
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta nobis optio doloremque iure numquam magnam? Culpa velit est, totam voluptatum laudantium, dolore deleniti, qui sint nisi molestiae dolorum fugiat!</p>
+            </div>
+
+                <div class="coursecol">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dicta nobis optio doloremque iure numquam magnam? Culpa velit est, totam voluptatum laudantium, dolore deleniti, qui sint nisi molestiae dolorum fugiat!</p>
+                </div>
+        </div>  ---->
+
+     <!--   <section class="para1">
+            <div class="row">
+                <div class="para1col">
+                   <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quisquam! Architecto quasi consequatur suscipit. Sequi officia, modi, fugit ratione et aliquid natus minus quas quaerat ullam numquam hic laborum, ipsa molestias voluptates sit itaque laboriosam ad eligendi facilis iusto maxime praesentium? Consectetur obcaecati, expedita, doloribus amet deserunt repudiandae nostrum pariatur voluptatum quod tempora neque veniam maiores, quidem molestiae odit labore ullam. Laboriosam sapiente quia doloremque, eos esse harum reiciendis provident enim eaque error nam velit architecto quis voluptates laborum temporibus!
+                    </p>
+                    <a href="contact.html"class="btn btn1">START NOW</a>
+        
+                </div>
+                <div class="para1col">
+                    <img src="../images/para1.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="para2">
+            <div class="row">
+                <div class="para2col">
+                   <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quisquam! Architecto quasi consequatur suscipit. Sequi officia, modi, fugit ratione et aliquid natus minus quas quaerat ullam numquam hic laborum, ipsa molestias voluptates sit itaque laboriosam ad eligendi facilis iusto maxime praesentium? Consectetur obcaecati, expedita, doloribus amet deserunt repudiandae nostrum pariatur voluptatum quod tempora neque veniam maiores, quidem molestiae odit labore ullam. Laboriosam sapiente quia doloremque, eos esse harum reiciendis provident enim eaque error nam velit architecto quis voluptates laborum temporibus!
+                    </p>
+                    <a href="contact.html"class="btn btn1">START NOW</a>
+        
+                </div>
+                <div class="para2col">
+                    <img src="../images/para2.png">
+                </div>
+            </div>
+        </section>
+
+        <section class="para3">
+            <div class="row">
+                <div class="para3col">
+                   <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quisquam! Architecto quasi consequatur suscipit. Sequi officia, modi, fugit ratione et aliquid natus minus quas quaerat ullam numquam hic laborum, ipsa molestias voluptates sit itaque laboriosam ad eligendi facilis iusto maxime praesentium? Consectetur obcaecati, expedita, doloribus amet deserunt repudiandae nostrum pariatur voluptatum quod tempora neque veniam maiores, quidem molestiae odit labore ullam. Laboriosam sapiente quia doloremque, eos esse harum reiciendis provident enim eaque error nam velit architecto quis voluptates laborum temporibus!
+                    </p>
+                    <a href="contact.html"class="btn btn1">START NOW</a>
+        
+                </div>
+                <div class="para3col">
+                    <img src="../images/para3.png">
+                </div>
+            </div>
+        </section>  ---->
+
+    
+<!--
+   <div class="container">
+     <div class="desccontainer">
+       <img src="../images/para1.png" alt="" class="img-responsive floatimg right">
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure doloremque nihil incidunt deleniti, dolore sapiente doloribus. Libero, cum obcaecati soluta quod accusantium nesciunt? Repudiandae, expedita! Adipisci necessitatibus magnam quisquam architecto quia blanditiis nisi ipsum deserunt est aut repudiandae laboriosam dolorem suscipit, natus officia animi a reprehenderit dicta! Maiores adipisci, harum velit recusandae neque minima quod eius quia, blanditiis beatae illum dolorem tempora magni earum ipsam quaerat veritatis expedita molestiae molestias quam eligendi mollitia. Amet voluptatibus consequatur ducimus labore sed eveniet.<br></p>
+       
+    <img src="../images/para2.png" alt="" class="img-responsive floatimg left">
+    <h3><br>Lorem, ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum inventore quod molestias quidem necessitatibus dolores, aliquam amet nam nisi? Laudantium expedita laborum explicabo, incidunt dignissimos voluptatem consequatur. Eaque sed eos labore autem velit ex enim nulla, repellendus alias maxime? Quam magnam voluptatum dolor delectus ut ad, possimus architecto dicta pariatur. Sequi soluta rerum eum, voluptates quo tenetur vel, reprehenderit optio ipsum magnam nisi, necessitatibus praesentium pariatur animi officiis qui assumenda. Voluptate.</p>
+
+
+    <img src="../images/para3.png" alt="" class="img-responsive floatimg right">
+    <h3><br>Lorem, ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum inventore quod molestias quidem necessitatibus dolores, aliquam amet nam nisi? Laudantium expedita laborum explicabo, incidunt dignissimos voluptatem consequatur. Eaque sed eos labore autem velit ex enim nulla, repellendus alias maxime? Quam magnam voluptatum dolor delectus ut ad, possimus architecto dicta pariatur. Sequi soluta rerum eum, voluptates quo tenetur vel, reprehenderit optio ipsum magnam nisi, necessitatibus praesentium pariatur animi officiis qui assumenda. Voluptate.</p>
+
+    
+    </div>
+   </div> ------->
+<div class="start">
+<section class="course">
+    <h1>── What We Do ──</h1>
+    <p><em>Our unique services & features.</em></p>
+</section>
+
+<div class="container">
+    <div class="thumbnail right">
+        <img src="images/para1.png">
+    </div>
+        <h4>Quick Pay on-the-go</h4>
+        <p>Users must register with their bank account details, which can be done through their bank's mobile app or website. To initiate a transaction using <b>FINTECH</b>, the user enters the amount they wish to send and selects the recipient's ID or mobile number. The user then enters their PIN to authenticate the transaction. Once the transaction is authenticated, the funds are transferred instantly from the sender's bank account to the recipient's bank account. Both the sender and recipient receive confirmation of the transaction, along with details such as the transaction ID and the amount transferred. One of the key advantages is that they enable users to make payments directly from their bank accounts, eliminating the need for a separate wallet or card. Additionally, transactions are processed in real-time, making it a fast and convenient way to transfer money.<br><br></p>
+
+    <div class="thumbnail left">
+        <img src="images/para3.png">
+    </div>
+        <h4>Customized Budgeting</h4>
+        <p>Customized budgeting is a valuable feature of modern financial trackers that can help users gain a deeper understanding of their financial situation and track progress towards specific financial goals. Personalized budget categories allow users to create custom budget categories based on their unique spending patterns and financial goals.Users can create separate categories for groceries, entertainment, or loan payments. <b>FINTECH</b> uses machine learning algorithms to automatically categorize expenses, making it easier for users to track their spending and identify areas where they can cut back. <b>FINTECH</b> uses predictive algorithms to forecast future expenses based on past spending patterns, allowing users to plan ahead and make adjustments to their budgets as needed. It also allows users to generate customized reports that provide a detailed view of their financial situation, including income, expenses, and savings.<br><br></p>
+
+    <div class="thumbnail right">
+        <img src="images/para2.png" >
+    </div>
+        <h4>Statistical Data Representation</h4>
+        <p>Graphical representation used to show how expenses have changed over the course of a month. Select a time frame for which you want to track expenses. <b>FINTECH</b> collects data and tracks your expenses for the selected time frame. The graph shows how your expenses have changed over time. Data points are added to the graph to show how your expenses have changed over time. Each data point represents the total amount spent on expenses during a specific time period. Analyze the graph to identify patterns in your expenses. Are there specific categories of expenses that are driving up your overall spending? By creating a line graph that tracks expenses over time, you can gain valuable insights into your spending patterns and make informed decisions about how to manage your finances.<br><br></p>
+</div>
+</div>
+
+<section id="test">
+    <div class="contain">
+        <div class="testtop">
+            <h1><br><br>── What Our Clients Say ──</h1>
+            <p>Check out the reviews of our valuable clients.</p>
+        </div>
+
+        <div class="testcontainer">
+        <div class="testitem">
+           <img src="images/user1.png" >
+           <div class="testiteminfo">
+            <p>I've been using this financial tracker for a few months now and I'm really impressed. It's so easy to use and has helped me stay on top of my budget. The graphs and charts make it easy to see where my money is going and I love the personalized insights that help me make better financial decisions.</p>
+        <h6>John Byers</h6>
+        <div class="testrating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        </div>
+        </div>
+
+        <div class="testitem">
+            <img src="images/user2.png">
+            <div class="testiteminfo">
+             <p>I was hesitant to start using a financial tracker, but this one has exceeded my expectations. The interface is intuitive and the budgeting tools have helped me save money each month. I also appreciate the alerts that notify me of unusual spending patterns so I can quickly address any issues.</p>
+         <h6>Christian Smith</h6>
+         <div class="testrating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+         </div>
+         </div>
+         </div>
+
+         <div class="testitem">
+            <img src="images/user3.png">
+            <div class="testiteminfo">
+             <p>I've tried a few financial trackers in the past, but this one is by far my favorite. The automatic categorization of transactions saves me so much time and the customizable budgeting options allow me to tailor the tool to my specific financial goals. Overall, I'm very happy with this product and recommend it to anyone looking to better manage their finances.</p>
+         <h6>Laura Williams</h6>
+         <div class="testrating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+         </div>
+         </div>
+         </div>
+
+    </div>
+
+    </div>
+</section>
+ 
+
+
+
+
+    <!-- <footer id="main-footer">
+        <p>Copyright &copy;2023 Hercules</p>
+    </footer>   -->
+
+
+    <section class="contact">
+    <h1>Get to know more on FINTECH  </h1>    
+    <a href="contact.html"class="btn">CONTACT US</a>
+    </section>
+
+    <section class="footer"> 
+        <h4>FINTECH</h4>
+        <p>Explore Your Financial Behavior with Our Social Analytics.<br>Connect with us on our socials.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        
+        <p><br>Copyright &copy All Rights Reserved</p>
+    </section>   
+
+</body>
+</html>
