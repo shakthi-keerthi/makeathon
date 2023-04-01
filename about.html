@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINTECH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;1,200&family=Telex&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="subheader">
+       <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="navlinks" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="features.html">FEATURES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+
+ 
+        <h1>About Us</h1>
+    
+    </section>
+<!--about us content-->
+<section class="aboutus">
+    <div class="row">
+        <div class="aboutcol">
+           <h1>Welcome to FINTECH!</h1>
+            <p>Welcome to <b>FINTECH</b>, your go-to platform for managing your finances and achieving your financial goals. Our mission is to help individuals and families take control of their money and build a better financial future.
+                At <b>FINTECH</b>, we created a user-friendly platform that makes it easy for you to track your income and expenses, set budgets, and monitor your progress towards your financial goals.
+                We value transparency, security, and privacy, and we take precaution to ensure that your financial information is always safe and secure. We use the latest technology and follow strict security protocols to protect your data at all times.
+                Whether you're looking to pay off debt, save for a down payment on a home, or invest for your future, <b>FINTECH </b> has the tools and resources you need to succeed. Thank you for choosing us to help you on your financial journey.
+            </p>
+            <a href="contact.html"class="btn btn1">START NOW</a>
+
+        </div>
+        <div class="aboutcol">
+            <img src="images/about.jpeg">
+        </div>
+    </div>
+</section>
+   
+
+<section class="footer"> 
+    <h4>FINTECH</h4>
+    <p>Explore Your Financial Behavior with Our Social Analytics.<br>Connect with us on our socials.</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+    
+    <p><br>Copyright &copy All Rights Reserved</p>
+</section>   
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
